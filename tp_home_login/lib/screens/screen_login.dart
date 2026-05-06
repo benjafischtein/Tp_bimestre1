@@ -25,9 +25,9 @@ class _LoginScreenState extends State<LoginScreen> {
               SizedBox(height: 30),
               Text("Ingresa tu usuario y contraseña:", style: TextStyle(fontSize: 35, color: Colors.black, fontWeight: FontWeight.bold,)),
               SizedBox(height: 300),
-              SizedBox(width: 1000, child: TextField(controller: usuarioController)),
+              SizedBox(width: 1000, child: TextField(controller: usuarioController, decoration: InputDecoration(hintText: 'Usuario'),)),
               SizedBox(height: 100),
-              SizedBox(width: 1000, child:TextField(controller: passwordController, obscureText: true)),
+              SizedBox(width: 1000, child:TextField(controller: passwordController, obscureText: true, decoration: InputDecoration(hintText: 'Contraseña'),)),
               SizedBox(height:200),
               SizedBox(width: 300, height: 100, child: ElevatedButton(
                 onPressed: () {
