@@ -23,7 +23,7 @@ class _LoginScreenState extends State<LoginScreen> {
             mainAxisAlignment: MainAxisAlignment.center,
             children:[
               SizedBox(height: 30),
-              Text("Ingresa tu usuario y cotraseña:", style: TextStyle(fontSize: 35, color: Colors.black, fontWeight: FontWeight.bold,)),
+              Text("Ingresa tu usuario y contraseña:", style: TextStyle(fontSize: 35, color: Colors.black, fontWeight: FontWeight.bold,)),
               SizedBox(height: 300),
               SizedBox(width: 1000, child: TextField(controller: usuarioController)),
               SizedBox(height: 100),
